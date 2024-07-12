@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d59bbe;
+}
+
+header {
+    background-color: #f8f4f4;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #060000;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.animated-picture {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    background: url('https://img.freepik.com/premium-photo/young-woman-using-laptop-computer-office-student-girl-working-home-work-study-from-home_777271-14779.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
